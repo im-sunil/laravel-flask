@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use Action\Action;
+
+class DummyClass extends Action
+{
+    /**
+     * @return mixed
+     */
+
+    public function perform($request)
+    {
+        return [
+            //
+        ];
+    }
+}

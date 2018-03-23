@@ -1,0 +1,29 @@
+{
+    "name": "im-sunil/flask",
+    "type": "library",
+    "description": "A simple API extension for Action based CRUD.",
+    "keywords": ["laravel", "crud", "action"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunil",
+            "email": "bagdesunil786@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "codedungeon/phpunit-result-printer": "^0.5.4",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Action\\": "src/Action/"
+        },
+        "files": ["src/Action/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
